@@ -12,6 +12,6 @@ function formatNumber(num:any) {
      return num.toFixed(2);
 }
 
-let amount = 50.12345
-formatNumber(amount)
-console.log(formatNumber(amount))
+let amounts = 50.12345
+formatNumber(amounts)
+console.log(formatNumber(amounts)) 

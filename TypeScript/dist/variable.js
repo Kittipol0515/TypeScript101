@@ -8,6 +8,6 @@ console.log(`Name: ${fname.toUpperCase()} ${lname} ${age}`);
 function formatNumber(num) {
     return num.toFixed(2);
 }
-let amount = 50.12345;
-formatNumber(amount);
-console.log(formatNumber(amount));
+let amounts = 50.12345;
+formatNumber(amounts);
+console.log(formatNumber(amounts));
