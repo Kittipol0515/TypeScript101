@@ -34,7 +34,7 @@
 
 // parameter and return
 
-function checkNumber(num:number) : string {
+const checkNumber=(num:number) : string => {
     if(num % 2 === 0) {
         return "even numbers"
     } else {
