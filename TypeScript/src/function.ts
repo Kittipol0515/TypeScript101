@@ -34,17 +34,28 @@
 
 // parameter and return
 
-const checkNumber=(num:number) : string => {
-    if(num % 2 === 0) {
-        return "even numbers"
-    } else {
-        return "odd numbers"
-    }
+// const checkNumber=(num:number) : string => {
+//     if(num % 2 === 0) {
+//         return "even numbers"
+//     } else {
+//         return "odd numbers"
+//     }
+// }
+
+// function total(a:number, b:number) : number {
+//     return a+b
+// }
+// console.log(total(10,20))
+
+// console.log(checkNumber(25))
+
+// Default parameters
+
+function showEmployee(name:string,age:number,address:string = "USA") {
+    console.log(`name: ${name}, age: ${age}, address: ${address}`)
 }
 
-function total(a:number, b:number) : number {
-    return a+b
-}
-console.log(total(10,20))
-
-console.log(checkNumber(25))
+showEmployee('Nomain',25,'Tokyo')
+showEmployee('Nomain',25,'Tokyo')
+showEmployee('Nomain',25,'Tokyo')
+showEmployee('Nomain',25)
